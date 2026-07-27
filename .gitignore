@@ -1,0 +1,43 @@
+# 编辑器与IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+*~
+~$*
+
+# 系统文件
+Desktop.ini
+ehthumbs.db
+
+# 日志
+*.log
+logs/
+
+# 环境变量与密钥
+.env
+.env.local
+*.secret
+*.key
+
+# 构建产物（如未来引入静态站点生成器）
+dist/
+build/
+node_modules/
+
+# Python（如未来引入脚本工具）
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# 不追踪 .trae 等工具私有目录
+.trae/
