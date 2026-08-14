@@ -47,6 +47,7 @@ Knowledge/
 | 2026-07-27 | AGENTS.md 增补"工作规则"段（5 条通用 AI 协作准则，知识库场景适配版） |
 | 2026-07-27 | AGENTS.md 增补第 6 条规则：知识性问题先讨论再落笔 |
 | 2026-07-27 | 新增 02-专业知识/Agent/ReAct.md（含 function calling 式实现与思考模型对比） |
+| 2026-08-14 | 在 BrainDump/Skills 的 14 个空分类目录中各放入 .gitkeep，以便 Git 跟踪目录结构 |
 
 **待办**
 
