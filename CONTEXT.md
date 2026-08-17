@@ -52,7 +52,7 @@ Knowledge/
 
 **当前状态**
 
-- `专题/Skills/`：`优秀Skill收录.md` 为索引；介绍文档按类别放 `downloaded_skills/`；不保存 Skill 整包
+- `专题/Skills/`：`优秀Skill收录.md` 为索引；介绍文档按类别放 `downloaded_skills/`；不保存 Skill 整包；已收录 `grill-me`
 - `专题/视频生成/`：`01` 总览 → `06` 分镜脚本模板；`提示词/` 为五步元提示词
 - `05-业界动态/deepseek-harness/`：总览、架构、业界对照、资料索引
 - `04-速查/`：按场景选模型（编程 / 生图 / 音乐 / 语音 / 视频）
@@ -62,7 +62,7 @@ Knowledge/
 |------|----------|
 | 2026-07-27 | 初始化目录；AGENTS 通用模板与写作指南；写作约定迁入 CONTEXT |
 | 2026-08-14 | BrainDump 改专题；新建 04-速查；视频生成 01–06 + 提示词 |
-| 2026-08-17 | 新增 deepseek-harness；Skills 收录改索引；CONTEXT 改为状态快照 + 阶段进度 |
+| 2026-08-17 | 新增 deepseek-harness；Skills 收录改索引；收录 `grill-me` |
 
 **待办**
 

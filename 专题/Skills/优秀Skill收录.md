@@ -8,6 +8,12 @@
 |-------|-------|--------|------|------|
 | `claude-scientific-skills` | 16,989 | 13.9K+ | 138+ 科学技能集合，覆盖生物信息、化学、医学、AI 等 | [介绍](downloaded_skills/Documentation/claude-scientific-skills.md) |
 
+## 效率
+
+| Skill | Stars | 安装量 | 简介 | 介绍 |
+|-------|-------|--------|------|------|
+| `grill-me` | 219,669 | 876.3K | 动手前拷问计划与设计，直到决策树谈清 | [介绍](downloaded_skills/Productivity/grill-me.md) |
+
 ## 技术可视化
 
 | Skill | Stars | 安装量 | 简介 | 介绍 |
