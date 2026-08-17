@@ -5,7 +5,7 @@
 ## 目录结构
 
 ```
-downloaded_skills/        ← 从社区/平台下载的 Skill
+downloaded_skills/        ← 社区 Skill 的介绍文档
 generated_skills/         ← 自己创建/生成的 Skill
 ├── Web Development/
 ├── Testing/
@@ -20,7 +20,7 @@ generated_skills/         ← 自己创建/生成的 Skill
 
 | 目录 | 用途 | 来源 |
 |------|------|------|
-| **downloaded_skills** | 存放从 skills.sh、GitHub 等平台下载的社区 Skill | `npx skills add`、手动下载等 |
+| **downloaded_skills** | 存放社区 Skill 的介绍文档（不保存 Skill 整包） | 从 skills.sh、GitHub 收录后撰写 |
 | **generated_skills** | 存放自己创建或用 skill-creator 生成的自定义 Skill | `npx skills init`、手动编写等 |
 
 ## 7 个类别详解
@@ -89,6 +89,6 @@ generated_skills/         ← 自己创建/生成的 Skill
 ## 使用建议
 
 1. **按需安装**：不要装太多 Skill，每个都会占用 Agent 上下文空间
-2. **分类存放**：下载的放 `downloaded_skills`，自建的放 `generated_skills`，便于管理
-3. **安全审查**：下载的 Skill 安装前务必阅读 SKILL.md 内容，检查是否涉及文件写入、命令执行等敏感操作
+2. **分类存放**：社区 Skill 的介绍放入 `downloaded_skills` 对应类别，自建的放 `generated_skills`；整包用 `npx skills add` 装到 Agent，不入库
+3. **安全审查**：安装前阅读 SKILL.md，检查是否涉及文件写入、命令执行等敏感操作
 4. **定期清理**：用 `npx skills check` 检查更新，移除不再使用的 Skill
