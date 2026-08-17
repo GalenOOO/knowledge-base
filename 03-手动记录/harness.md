@@ -16,7 +16,7 @@ Agent = Model + Harness
 2. Tools：执行外部动作（搜索、查数据库、调 API、运行代码等），对应一次工具调用
 3. Memory：记录之前的交互历史，作为上下文提供给模型。还应该包括知识库，skill 等。
 4. Context ManagerManager：根据任务类型（如单轮、多轮）和模型能力（如最大上下文长度），智能管理上下文，避免超出限制
-6. Subagent：支持创建子 Agent 处理子任务，实现复杂任务分解
+5. Subagent：支持创建子 Agent 处理子任务，实现复杂任务分解
 
 辅助组件：
 1. Sandbox：在安全环境中执行外部动作，防止恶意代码执行
