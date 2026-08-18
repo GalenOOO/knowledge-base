@@ -5,14 +5,14 @@ Agent = Model + Harness
 2. 让Agent受控执行任务，最大程度提升完成任务的成功率。
 
 如何达到这个目标：
-1. 配置基础能力组件：React、Tools、Memory、Context ManagerManager、Subagent。
+1. 配置基础能力组件：ReactLoop、Tools、Memory、Context ManagerManager、Subagent。
 2. 受控执行：Sandbox、文件系统、权限控制。
 3. 监控和反馈：Agent的执行过程可观测、结果可验证、故障可恢复。（Middleware、Hooks 等辅助组件，确保 Agent 执行环境的安全和稳定）
 
 ## Harness：
 
 基础能力：
-1. React：循环执行 Reasoning + Acting 直到完成任务
+1. ReactLoop：循环执行 Reasoning + Acting 直到完成任务
 2. Tools：执行外部动作（搜索、查数据库、调 API、运行代码等），对应一次工具调用
 3. Memory：记录之前的交互历史，作为上下文提供给模型。还应该包括知识库，skill 等。
 4. Context ManagerManager：根据任务类型（如单轮、多轮）和模型能力（如最大上下文长度），智能管理上下文，避免超出限制
