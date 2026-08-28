@@ -172,3 +172,23 @@ openclaw onboard --install-daemon
 ```
 
 启动：`openclaw`。安装脚本会直接进入 onboarding。
+
+## 自定义模型 API 支持
+
+> 自定义模型 API 支持情况为联网核实，截至 2026-08。能力迭加快，用时以官方文档为准。
+
+| 工具 | 支持自定义模型 API | 配置方式 |
+|------|------|---------|
+| DeepSeek Harness | 支持 | 框架多 provider 配置，可选模型 / base URL |
+| Claude Code | 支持 | `ANTHROPIC_BASE_URL` + `ANTHROPIC_AUTH_TOKEN` 指向兼容端点 |
+| Codex CLI | 支持 | `config.toml` 的 `model_providers` 配 `base_url` + key |
+| Cursor Agent CLI | 支持 | 按模型配置自定义 API key（BYOK） |
+| Gemini CLI | 未提供 | 自定义端点仅社区 PR（`GEMINI_API_BASE_URL` / `GOOGLE_GEMINI_BASE_URL`） |
+| OpenCode | 支持 | 配置自定义 OpenAI 兼容 provider |
+| GitHub Copilot CLI | 支持 | BYOK + 本地模型（如 Ollama） |
+| Qwen Code | 支持 | Model Providers 配置 |
+| Kimi Code CLI | 支持 | providers 配置 |
+| Pi Agent | 支持 | Custom Models 配置自定义端点 |
+| MiniMax CLI | 未提供 | 官方仅接 MiniMax 平台（`mmx auth login --api-key`） |
+| Hermes Agent | 支持 | providers 配置 |
+| OpenClaw | 支持 | 自定义 Provider（Ollama / LM Studio / 内部接口） |
