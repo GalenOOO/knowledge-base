@@ -1,0 +1,35 @@
+CONTEXT.md
+  s_221b3960bb1060::t_581dcfd2b33f8f 86
+  s_221b3960bb1060::t_46aa1e6b9fe93d 84-85
+02-专业知识/Agent/LLM-API调用协议.md
+  s_221b3960bb1060::t_3133abff692d14 1-386
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "fe2fe55b8f566fe2327688d78529331c9d0a0ca3",
+  "prompts": {},
+  "sessions": {
+    "s_221b3960bb1060": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a911194d3763b35a166361d",
+        "model": "deepseek_v4_flash_official__dev"
+      },
+      "human_author": "zhouguangliang <zhouguangliang5@huawei.com>",
+      "custom_attributes": {
+        "dedupe_key": "6a911194d3763b35a166361d:6a911379d3763b35a1663665:afterEdit:b84812cc",
+        "session_id": "6a911194d3763b35a166361d",
+        "client_type": "ide",
+        "tool_type": "agent",
+        "operation_id": "6a911379d3763b35a1663665",
+        "runtime_client": "trae-tob-git-ai",
+        "source_scene": "unknown",
+        "external_session_id": "6a911194d3763b35a166361d",
+        "tool_id": "Edit",
+        "edit_kind": "file_edit",
+        "tool_use_id": "6a911379d3763b35a1663665"
+      }
+    }
+  }
+}
