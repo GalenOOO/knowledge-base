@@ -1,0 +1,40 @@
+02-专业知识/Agent/上下文工程.md
+  s_7f8b92fc726eb1::t_7582f9db99cc34 24,26-36,45,63,73,82,90,100,113-115,118
+  s_7f8b92fc726eb1::t_f8c80e21030c6d 120-137
+  s_7f8b92fc726eb1::t_a6484d163d6659 87-88
+  s_7f8b92fc726eb1::t_da124e728d0c9c 1-12,119,138-145,252-255
+  s_7f8b92fc726eb1::t_26c2954378600d 13-23,25,37-44,46-54,64-72,74-81,83-86,89,91,93-95,99,101,103,107-112,116-117
+  s_7f8b92fc726eb1::t_71f3c101c60a06 55-62
+  s_7f8b92fc726eb1::t_21c500338d7cd3 146-239,241-245,247-251
+  s_7f8b92fc726eb1::t_838cd91672195f 102,104-106
+  s_7f8b92fc726eb1::t_91480b7daf818f 240,246
+  s_7f8b92fc726eb1::t_aa3ca0f25cd608 92,96-98
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "003d522c9a883e24779863727b262eb532b5867e",
+  "prompts": {},
+  "sessions": {
+    "s_7f8b92fc726eb1": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a929b11d3763b35a16641ed",
+        "model": "GLM-5.2"
+      },
+      "human_author": "zhouguangliang <zhouguangliang5@huawei.com>",
+      "custom_attributes": {
+        "edit_kind": "file_edit",
+        "display_model_name": "GLM-5.2-hw",
+        "source_scene": "agent",
+        "tool_name": "Edit",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_use_id": "6a94ef01d3763b35a1664663",
+        "client_type": "ide",
+        "session_id": "6a929b11d3763b35a16641ed",
+        "external_session_id": "6a929b11d3763b35a16641ed",
+        "operation_id": "6a94ef01d3763b35a1664663"
+      }
+    }
+  }
+}
