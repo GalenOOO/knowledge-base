@@ -1,0 +1,150 @@
+03-手动记录/记忆设计.md
+  s_e80d7964805a13::t_4b3dc4cad276cb 21
+  s_18a790e424e49a::t_873b4c562be4dd 4-6,12-15
+  h_e55ecc90a85f4e 1,3,8-11,16-18,23-27,29-34,38-60
+  s_1a719ccc698a3e::t_0de481f7b59069 28
+  s_d69eeebf22dc0e::t_b27f77fe9c2fa1 22
+  s_18a790e424e49a::t_3f35f590e29a47 19
+  s_de96a1cf748b60::t_4d478cfb996c34 35-37
+  s_153be5e003d6b5::t_ae591d20245a79 61
+  s_84ae3f60f1e47b::t_8cc156ed88b4f1 7
+  s_e12ae47aefa0a0::t_ff6363151d6dd6 20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "79bdb46aa24ea734ffd31b4647ea81bef700fc18",
+  "prompts": {},
+  "humans": {
+    "h_e55ecc90a85f4e": {
+      "author": "zhouguangliang <zhouguangliang5@huawei.com>"
+    }
+  },
+  "sessions": {
+    "s_153be5e003d6b5": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-84e30825-cff7-4d40-b7ed-27f50fd8c7d2",
+        "model": "default"
+      },
+      "human_author": "zhouguangliang <zhouguangliang5@huawei.com>",
+      "custom_attributes": {
+        "external_session_id": "icr-84e30825-cff7-4d40-b7ed-27f50fd8c7d2",
+        "tool": "trae-cue",
+        "source_scene": "cue",
+        "edit_kind": "file_edit",
+        "client_type": "ide"
+      }
+    },
+    "s_18a790e424e49a": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9b8669d3763b35a16659e5",
+        "model": "GLM-5.3"
+      },
+      "human_author": "zhouguangliang <zhouguangliang5@huawei.com>",
+      "custom_attributes": {
+        "runtime_client": "trae-tob-git-ai",
+        "tool_use_id": "6a9b9297d3763b35a1665a0a",
+        "source_scene": "agent",
+        "operation_id": "6a9b9297d3763b35a1665a0a",
+        "session_id": "6a9b8669d3763b35a16659e5",
+        "edit_kind": "file_edit",
+        "display_model_name": "GLM-5.3-hw",
+        "tool_name": "Edit",
+        "external_session_id": "6a9b8669d3763b35a16659e5",
+        "client_type": "ide"
+      }
+    },
+    "s_1a719ccc698a3e": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-943cbbbd-2a85-4870-853f-ba734d033b78",
+        "model": "default"
+      },
+      "human_author": "zhouguangliang <zhouguangliang5@huawei.com>",
+      "custom_attributes": {
+        "tool": "trae-cue",
+        "source_scene": "cue",
+        "edit_kind": "file_edit",
+        "external_session_id": "icr-943cbbbd-2a85-4870-853f-ba734d033b78",
+        "client_type": "ide"
+      }
+    },
+    "s_84ae3f60f1e47b": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-541384a7-8f93-4b21-bfa2-12fb5c8d2eff",
+        "model": "default"
+      },
+      "human_author": "zhouguangliang <zhouguangliang5@huawei.com>",
+      "custom_attributes": {
+        "tool": "trae-cue",
+        "edit_kind": "file_edit",
+        "external_session_id": "icr-541384a7-8f93-4b21-bfa2-12fb5c8d2eff",
+        "source_scene": "cue",
+        "client_type": "ide"
+      }
+    },
+    "s_d69eeebf22dc0e": {
+      "agent_id": {
+        "tool": "trae-code-edit",
+        "id": "ai_tab-20260905103138010000017006832885F",
+        "model": "default"
+      },
+      "human_author": "zhouguangliang <zhouguangliang5@huawei.com>",
+      "custom_attributes": {
+        "client_type": "ide",
+        "source_scene": "cue",
+        "tool": "trae-code-edit",
+        "edit_kind": "file_edit",
+        "external_session_id": "20260905103138010000017006832885F"
+      }
+    },
+    "s_de96a1cf748b60": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-c5577135-ed58-4c25-b6a8-a00078512dd3",
+        "model": "default"
+      },
+      "human_author": "zhouguangliang <zhouguangliang5@huawei.com>",
+      "custom_attributes": {
+        "source_scene": "cue",
+        "edit_kind": "file_edit",
+        "tool": "trae-cue",
+        "client_type": "ide",
+        "external_session_id": "icr-c5577135-ed58-4c25-b6a8-a00078512dd3"
+      }
+    },
+    "s_e12ae47aefa0a0": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-4a34d131-9c75-42e6-9f7e-e276e4289645",
+        "model": "default"
+      },
+      "human_author": "zhouguangliang <zhouguangliang5@huawei.com>",
+      "custom_attributes": {
+        "tool": "trae-cue",
+        "edit_kind": "file_edit",
+        "client_type": "ide",
+        "external_session_id": "icr-4a34d131-9c75-42e6-9f7e-e276e4289645",
+        "source_scene": "cue"
+      }
+    },
+    "s_e80d7964805a13": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-491158da-63c3-4306-bb70-800a07bf3472",
+        "model": "default"
+      },
+      "human_author": "zhouguangliang <zhouguangliang5@huawei.com>",
+      "custom_attributes": {
+        "tool": "trae-cue",
+        "client_type": "ide",
+        "edit_kind": "file_edit",
+        "external_session_id": "icr-491158da-63c3-4306-bb70-800a07bf3472",
+        "source_scene": "cue"
+      }
+    }
+  }
+}
