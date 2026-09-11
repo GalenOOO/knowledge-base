@@ -1,0 +1,37 @@
+04-速查/AI工具安装与启动.md
+  s_24ef8b46725938::t_1daf118fe57ac0 9-10,17,73
+  s_24ef8b46725938::t_a91c72b8d68568 74
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "4fc6b03041e7a6f0a5c8cffd481223474ff8dc25",
+  "prompts": {},
+  "humans": {
+    "h_e55ecc90a85f4e": {
+      "author": "zhouguangliang <zhouguangliang5@huawei.com>"
+    }
+  },
+  "sessions": {
+    "s_24ef8b46725938": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6aa3593e616b043b29ba2521",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "zhouguangliang <zhouguangliang5@huawei.com>",
+      "custom_attributes": {
+        "external_session_id": "6aa3593e616b043b29ba2521",
+        "operation_id": "6aa36617616b043b29ba2574",
+        "tool_use_id": "6aa36617616b043b29ba2574",
+        "edit_kind": "file_edit",
+        "display_model_name": "GLM-5.3",
+        "source_scene": "agent",
+        "session_id": "6aa3593e616b043b29ba2521",
+        "tool_name": "Edit",
+        "client_type": "ide",
+        "runtime_client": "trae-tob-git-ai"
+      }
+    }
+  }
+}
