@@ -1,0 +1,12 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "af506726ee409d26d95f43c9afd7860ad8d420b9",
+  "prompts": {},
+  "humans": {
+    "h_e55ecc90a85f4e": {
+      "author": "zhouguangliang <zhouguangliang5@huawei.com>"
+    }
+  }
+}
