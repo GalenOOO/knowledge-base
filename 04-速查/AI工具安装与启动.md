@@ -6,13 +6,15 @@
 
 ## DeepSeek Harness
 
+免安装直接运行：
+
 ```
 npx @deepseek-ai/dsh web
 ```
 
 默认 Web UI：`http://127.0.0.1:3080`。需要 Node `^22.19.0` 或 `>=24`。
 
-全局安装后：`dsh web`。
+或全局安装，之后启动用 `dsh web`：
 
 ```
 npm i -g @deepseek-ai/dsh
@@ -68,11 +70,13 @@ irm 'https://cursor.com/install?win32=true' | iex
 
 ## Gemini CLI
 
+免安装直接运行：
+
 ```
 npx @google/gemini-cli
 ```
 
-全局安装后：`gemini`。
+或全局安装，之后启动用 `gemini`：
 
 ```
 npm i -g @google/gemini-cli
